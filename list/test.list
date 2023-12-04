@@ -1,4 +1,9 @@
 # NAME: test-自用分流
 # AUTHOR: 易安
 # UPDATED: 2023-11-29 02:14:19
+# DOMAIN 匹配完整域名
+# DOMAIN-SUFFIX 匹配完整域名后缀
+# DOMAIN-KEYWORD 匹配域名关键词
+# IP-CIDR 匹配ipv4
+# IP-CIDR6 匹配ipv6
 DOMAIN-SUFFIX,misakaf.org,test
