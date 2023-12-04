@@ -6,4 +6,5 @@
 # DOMAIN-KEYWORD 匹配域名关键词
 # IP-CIDR 匹配ipv4
 # IP-CIDR6 匹配ipv6
-DOMAIN-SUFFIX,misakaf.org,test
+DOMAIN-SUFFIX,misakaf.org,misakaf
+DOMAIN-SUFFIX,designs.cf,misakaf
