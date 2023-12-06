@@ -162,7 +162,7 @@ const SUB_STORE_SCHEMA = {
       datatype: "number",
       description:
         "当无任何节点缓存时测试节点HTTP延时允许的最大超时参数，超出允许范围则判定为无效节点，默认2000ms",
-      defaultValue: 2000,
+      defaultValue: 20000,
     },
     cd: {
       datatype: "number",
