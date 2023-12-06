@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/zbaiicn/master/main/Plugin/GithubPrivate/githu
 // 如果不使用BoxJS配置，可以在这里修改
 let config = {
   username: "zbaiicn", // 用户名
-  token: "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", // token
+  token: "", // token
 };
 
 // load user prefs from box
@@ -24,8 +24,11 @@ if (boxConfig) {
 const username = $request.url.match(
   /https:\/\/(?:raw|gist)\.githubusercontent\.com\/([^\/]+)\//
 )[1];
+
 // rewrite headers for specific user
 if (username == config.username) {
   console.log(`ACCESSING PRIVATE REPO: ${$request.url}`);
-  $done({ headers: {...$request.headers, Authorization: `token ${config.token}`} });
-} else $done({});
+  $done({ headers: { ...$request.headers, Authorization: `token ${config.token}` } });
+} else {
+  $done({});
+}
