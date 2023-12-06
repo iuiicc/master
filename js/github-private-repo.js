@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/zbaiicn/master/main/Plugin/GithubPrivate/githu
 // 如果不使用BoxJS配置，可以在这里修改
 let config = {
   username: "zbaiicn", // 用户名
-  token: "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", // token
+  token: "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", // token
 };
 
 // load user prefs from box
