@@ -6,8 +6,8 @@
   "repo": "https://github.com/zbaiicn/master",
   "apps": [
     {
-      "id": "github-private-repo",
-      "name": "访问Github私有仓库",
+      "id": "Github-private-repo",
+      "name": "Github私有仓库",
       "keys": [
         "@github_private_repo.username",
         "@github_private_repo.token"
