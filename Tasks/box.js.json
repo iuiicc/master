@@ -1,0 +1,71 @@
+
+
+ https://raw.githubusercontent.com/zbaiicn/master/main/icon/App_icon/512px/GitHub-iOS-512x512.png
+
+
+
+https://raw.githubusercontent.com/zbaiicn/master/main/js/github-private-repo.js
+
+
+
+#!name=GitHub Private Access
+#!desc=GitHub 访问私有仓库
+#!author=易安
+#!icon= https://raw.githubusercontent.com/zbaiicn/master/main/icon/App_icon/512px/GitHub-iOS-512x512.png
+#!homepage=https://github.com/zbaiicn/master/tree/main/Plugin
+#!date = 2023-12-07 03:28:05
+
+[MITM]
+hostname = raw.githubusercontent.com, gist.githubusercontent.com
+
+[Script]
+http-request ^https?:\/\/(raw|gist)\.githubusercontent.com, requires-body=0, script-path=https://raw.githubusercontent.com/zbaiicn/master/main/js/github-private-repo.js, tag=Github Private
+
+
+
+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
+
+
+
+
+
+
+{
+  "id": "pengym.app.sub",
+  "name": "Peng-YM 应用订阅",
+  "author": "@Peng-YM",
+  "icon": "https://avatars2.githubusercontent.com/u/21050064?s=460&u=40a74913dd0a3d00670d05148c3a08c787470021&v=4",
+  "repo": "https://github.com/zbaiicn/master",
+  "apps": [
+    {
+      "id": "github-private-repo",
+      "name": "Github私有仓库",
+      "keys": [
+        "@github_private_repo.username",
+        "@github_private_repo.token"
+      ],
+      "author": "易安",
+      "repo": "https://github.com/zbaiicn/master",
+      "settings": [
+        {
+          "id": "@github_private_repo.username",
+          "name": "Github用户名",
+          "val": "",
+          "type": "text",
+          "desc": "你的Github用户名"
+        },
+        {
+          "id": "@github_private_repo.token",
+          "name": "Github仓库的Token",
+          "val": "",
+          "type": "text",
+          "desc": "请参照脚本说明生成token，否则无法访问！"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/zbaiicn/master/main/icon/App_icon/512px/GitHub-iOS-512x512.png",
+        "https://raw.githubusercontent.com/zbaiicn/master/main/icon/App_icon/512px/GitHub-iOS-512x512.png"
+      ]
+    }
+  ]
+}
