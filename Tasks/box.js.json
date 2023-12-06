@@ -1,13 +1,13 @@
 {
   "id": "pengym.app.sub",
-  "name": "Peng-YM 应用订阅",
-  "author": "@Peng-YM",
+  "name": "易安 应用订阅",
+  "author": "易安",
   "icon": "https://avatars2.githubusercontent.com/u/21050064?s=460&u=40a74913dd0a3d00670d05148c3a08c787470021&v=4",
   "repo": "https://github.com/zbaiicn/master",
   "apps": [
     {
       "id": "github-private-repo",
-      "name": "Github私有仓库",
+      "name": "访问Github私有仓库",
       "keys": [
         "@github_private_repo.username",
         "@github_private_repo.token"
