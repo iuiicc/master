@@ -168,7 +168,7 @@ const SUB_STORE_SCHEMA = {
       datatype: "number",
       description:
         "当有缓存时，会先读取缓存，直接输出结果；默认[cd=]的值等于0，微直接读取缓存； 当设为更高的值: 比如'460'则每次读缓存都会再次处理之前判定为超时的节点,超时为460ms",
-      defaultValue: 0,
+      defaultValue: 20000,
     },
     bs: {
       datatype: "number",
