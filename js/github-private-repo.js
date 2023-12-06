@@ -4,7 +4,7 @@
 🛎[配置说明]
 0️⃣ 
 使用Loon插件:
-https://raw.githubusercontent.com/zbaiicn/master/Plugin/github-private-repo.plugin
+https://raw.githubusercontent.com/zbaiicn/master/main/Plugin/GithubPrivate/github-private-repo.plugin
 1️⃣ 登陆Github > 点击头像下拉菜单 > 选择Settings > 左边菜单栏选择最后一个Developer settings > 选择Personal access tokens > Generate new token > Note里面填写token名字 > ☑️下面的勾选框选择第一项repo打钩（所有子项目自动勾选）> 点击Generate token按钮保存并返回。
 2️⃣ 在BoxJS里面填入用户名（打开Github，浏览器地址栏应该会显示https://github.com/这里是你的用户名/）和上面的token。
 */
