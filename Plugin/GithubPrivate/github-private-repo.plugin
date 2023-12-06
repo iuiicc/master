@@ -1,0 +1,12 @@
+#!name=GitHub Private Access
+#!desc=GitHub 访问私有仓库
+#!author=易安
+#!icon= https://raw.githubusercontent.com/zbaiicn/master/main/icon/App_icon/512px/GitHub-iOS-512x512.png
+#!homepage=https://github.com/zbaiicn/master/tree/main/Plugin
+#!date = 2023-12-07 03:28:05
+
+[MITM]
+hostname = raw.githubusercontent.com, gist.githubusercontent.com
+
+[Script]
+http-request ^https?:\/\/(raw|gist)\.githubusercontent.com, requires-body=0, script-path=https://raw.githubusercontent.com/zbaiicn/master/main/js/github-private-repo.js, tag=Github Private
