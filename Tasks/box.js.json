@@ -38,7 +38,7 @@
     {
       "id": "TestFlight-Account",
       "name": "TestFlight账户管理",
-      "keys": ["TESTFLIGHT-ACCOUNT"],
+      "keys": ["TestFlightAccount"],
       "descs_html": [
         "<h4 align=\"center\">脚本说明以及配置请查看<a href=\"https://raw.githubusercontent.com/zbaiicn/master/main/js/TestFlightAccount.js\">脚本注释</a></h4>"
       ],
