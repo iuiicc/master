@@ -9,21 +9,21 @@
       "id": "Github-private-repo",
       "name": "Github私有仓库",
       "keys": [
-        "@github_private_repo.username",
-        "@github_private_repo.token"
+        "@Github_Private_Repo.username",
+        "@Github_Private_Repo.token"
       ],
       "author": "易安",
       "repo": "https://github.com/zbaiicn/master",
       "settings": [
         {
-          "id": "@github_private_repo.username",
+          "id": "@Github_Private_Repo.username",
           "name": "Github用户名",
           "val": "",
           "type": "text",
           "desc": "你的Github用户名"
         },
         {
-          "id": "@github_private_repo.token",
+          "id": "@Github_Private_Repo.token",
           "name": "Github仓库的Token",
           "val": "",
           "type": "text",
