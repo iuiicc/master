@@ -18,7 +18,7 @@ Loon 添加脚本：
 *********************************
 
 Loon插件地址：
-https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_TF_Account.plugin
+https://raw.githubusercontent.com/zbaiicn/master/main/Plugin/TestFlight/TF_Account.plugin
 
 *********************************/
 
