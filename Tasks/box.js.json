@@ -34,6 +34,24 @@
         "https://raw.githubusercontent.com/zbaiicn/master/main/icon/App_icon/512px/GitHub-iOS-512x512.png",
         "https://raw.githubusercontent.com/zbaiicn/master/main/icon/App_icon/512px/GitHub-iOS-512x512.png"
       ]
+    },
+    {
+      "id": "TestFlightAccount",
+      "name": "TestFlight账户管理",
+      "keys": ["TESTFLIGHT-ACCOUNT"],
+      "descs_html": [
+        "<h4 align=\"center\">脚本说明以及配置请查看<a href=\"https://raw.githubusercontent.com/zbaiicn/master/main/js/TestFlightAccount.js\">脚本注释</a></h4>"
+      ],
+      "settings": [{
+        "id": "@TestFlightAccount.Debug",
+        "name": "开发者模式",
+        "val": false,
+        "type": "boolean",
+        "desc": "用于调试脚本, 一般用户请勿开启."
+      }],
+      "author": "易安",
+      "repo": "https://github.com/zbaiicn/master",
+      "icons": ["https://raw.githubusercontent.com/zbaiicn/master/main/icon/App_icon/512px/TestFlight-iOS-512x512.png", "https://raw.githubusercontent.com/zbaiicn/master/main/icon/App_icon/512px/TestFlight-iOS-512x512.png"]
     }
   ]
 }
