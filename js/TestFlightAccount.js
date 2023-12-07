@@ -22,7 +22,7 @@ https://raw.githubusercontent.com/zbaiicn/master/main/Plugin/TestFlight/TF_Accou
 
 *********************************/
 
-const $ = API("TESTFLIGHT-ACCOUNT");
+const $ = API("TestFlightAccount");
 $.env.isNode ? $request = $.read('Request') : null;
 const [arr, obj, req, rsp] = [[], new Map(), $request, {}];
 const [k1, k2, k3] = ['x-session-id', 'x-request-id', 'x-session-digest'];
