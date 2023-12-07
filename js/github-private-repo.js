@@ -16,7 +16,7 @@ let config = {
 };
 
 // load user prefs from box
-const boxConfig = $persistentStore.read("github_private_repo");
+const boxConfig = $persistentStore.read("Github_Private_Repo");
 if (boxConfig) {
   config = JSON.parse(boxConfig);
 }
