@@ -36,7 +36,7 @@
       ]
     },
     {
-      "id": "TestFlightAccount",
+      "id": "TestFlight-Account",
       "name": "TestFlight账户管理",
       "keys": ["TESTFLIGHT-ACCOUNT"],
       "descs_html": [
