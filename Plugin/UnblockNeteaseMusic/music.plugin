@@ -48,4 +48,4 @@ hostname = music.163.com,*.music.163.com
 
 
 [Remote Rule]
-https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/NetEaseMusic/NetEaseMusic.list, policy=PROXY, tag=网易云分流, enabled=false
+https://raw.githubusercontents.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/NetEaseMusic/NetEaseMusic.list,PROXY, tag=网易云分流
