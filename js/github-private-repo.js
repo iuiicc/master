@@ -11,7 +11,7 @@ https://raw.githubusercontent.com/zbaiicn/master/main/Plugin/GithubPrivate/githu
 
 // 如果不使用BoxJS配置，可以在这里修改
 let config = {
-  username: "zbaiicn", // 用户名
+  username: "", // 用户名
   token: "", // token
 };
 
