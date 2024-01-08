@@ -1,0 +1,14 @@
+#自用emby分流
+
+# ORANGE🍊TV
+DOMAIN-SUFFIX,otv.icu,流媒体
+# MisakaF
+DOMAIN,push-kr.misakaf.org,流媒体
+DOMAIN-SUFFIX,misakaf.org,流媒体
+IP-CIDR,102.223.180.108,流媒体
+# AcEmby
+DOMAIN-SUFFIX,zox.show,流媒体
+IP-CIDR,5.78.74.124/32,流媒体
+# hxd_emby
+DOMAIN-SUFFIX,bili.rip,流媒体
+IP-CIDR,152.70.239.210/32,流媒体
