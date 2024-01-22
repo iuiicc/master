@@ -1,18 +1,22 @@
 #自用emby分流
 
-# ORANGE🍊TV
-DOMAIN-SUFFIX,otv.icu
-# MisakaF
-DOMAIN,push-kr.misakaf.org
+# > Dolphin Emby
+DOMAIN-SUFFIX,emby.ws
+
+# > MisakaF
 DOMAIN-SUFFIX,misakaf.org
 IP-CIDR,102.223.180.108/32,no-resolve
-# AcEmby
+
+# > AcEmby
 DOMAIN-SUFFIX,zox.show
 IP-CIDR,5.78.74.124/32,no-resolve
-# hxd_emby
+
+# > hxd_emby
 DOMAIN-SUFFIX,bili.rip
 IP-CIDR,152.70.239.210/32,no-resolve
 
+# > paul
 DOMAIN-SUFFIX,imetyou.top
 
-DOMAIN-SUFFIX,emby.ws
+# > ORANGE TV
+DOMAIN-SUFFIX,otv.icu
