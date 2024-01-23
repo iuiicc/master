@@ -18,5 +18,8 @@ IP-CIDR,152.70.239.210/32,no-resolve
 # > paul
 DOMAIN-SUFFIX,imetyou.top
 
+# > ban
+DOMAIN-SUFFIX,bangumi.ca
+
 # > ORANGE TV
 DOMAIN-SUFFIX,otv.icu
