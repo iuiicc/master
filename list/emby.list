@@ -26,3 +26,9 @@ DOMAIN-SUFFIX,123456.al
 
 # > ORANGE TV
 DOMAIN-SUFFIX,otv.icu
+
+# > 111pay
+DOMAIN-SUFFIX,xmsl.org
+
+# > gugu
+DOMAIN-SUFFIX,gugumedia.link
